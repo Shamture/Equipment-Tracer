@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+#login-body {
+	background-image: url("../images/wall.jpg");
+	background-repeat: no-repeat;
+}
+
+#login-body h1 {
+	font-size: 2.0em;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: #124578;
+	font-weight: bold;
+}
+
+#login-div {
+	display: inline-block;
+	max-width: 500px;
+	margin-left: 35%;
+	margin-top: 200px;
+	border-radius: 15px;
+	padding: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background: white;
+	box-shadow: 5px 5px 8px #000000;
+}
+
+#login-body #login-div label {
+	font-weight: bold;
+	font-style: italic;
+}
+
+#login-body #login-div .btn-danger {
+	font-weight: bold;
+	border-radius: 1px;
+	display: block;
+	margin: auto;
+}
+
+#page-wrapper {
+	min-height: 600px;
+}
+#page-wrapper h1{
+	color:#124578;
+	font-weight:bold;
+	font-family : Merriweather;
+	
+}
+
+#page-wrapper h2{
+	margin-bottom:50px;
+	font-family:Anton;
+	color:#555753;
+	
+}
+#page-wrapper #materiel-form .btn-danger {
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+#materiel-form .description-field {
+	min-height: 180px;
+}
+#information-materiel table{
+	margin-bottom:30px;
+	
+}
+#information-materiel{
+ box-shadow: 3px 3px 7px;
+ padding-top:10px;
+ padding-left:10px;
+}
+
+#information-materiel table td{
+	padding:10px;
+	vertical-align:top;
+}
+#information-materiel table p{
+	font-family:Lora;
+	color:#424242;
+}
+#information-materiel p strong {
+	display: inline-block;
+	min-width: 150px;
+	color:black;
+	font-family: Arial;
+	
+}
+
+#information-materiel div .image-materiel {
+	display: inline-block;
+	width: 300px;
+}
+
+#my-map {
+	height: 300px;
+	width: 100%;
+	margin-bottom:50px;
+}
